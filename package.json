@@ -1,0 +1,31 @@
+{
+    "name": "vscode-theme-django",
+    "displayName": "Django Theme",
+    "description": "Documentation inspired theme",
+    "version": "0.0.1",
+    "publisher": "victorzevallos",
+    "icon": "logo.png",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Django Theme",
+                "uiTheme": "vs",
+                "path": "./themes/django.json"
+            }
+        ]
+    },
+    "homepage": "https://github.com/victorzevallos/vscode-theme-laravel/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/victorzevallos/vscode-theme-laravel"
+    },
+    "bugs": {
+        "url": "https://github.com/victorzevallos/vscode-theme-laravel/issues"
+    }
+}
