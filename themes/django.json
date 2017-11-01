@@ -119,7 +119,7 @@
 			}
 		},
 		{
-			"name": "Variables and others",
+			"name": "Variables and Inherited class",
 			"scope": [
 				"variable",
 				"support.variable",
@@ -130,10 +130,10 @@
 			}
 		},
 		{
-			"name": "Functions",
+			"name": "Functions Python",
 			"scope": [
-				"entity.name.function",
-				"support.function.magic.php"
+				"entity.name.function.python",
+				"support.function.magic.python"
 			],
 			"settings": {
 				"foreground": "#0000FF"
@@ -580,9 +580,17 @@
 
 
 		{
-			"name": "PHP method and $this",
+			"name": "this",
 			"scope": [
-				"variable.language.this.php",
+				"variable.language.this.php"
+			],
+			"settings": {
+				"foreground": "#008000"
+			}
+		},
+		{
+			"name": "&",
+			"scope": [
 				"punctuation.definition.variable.php"
 			],
 			"settings": {
