@@ -132,7 +132,8 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
+				"support.function.magic.php"
 			],
 			"settings": {
 				"foreground": "#0000FF"
@@ -581,7 +582,6 @@
 		{
 			"name": "PHP method and $this",
 			"scope": [
-				"entity.name.function.php",
 				"variable.language.this.php",
 				"punctuation.definition.variable.php"
 			],

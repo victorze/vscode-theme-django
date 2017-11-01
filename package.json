@@ -2,7 +2,7 @@
     "name": "vscode-theme-django",
     "displayName": "Django Theme",
     "description": "Documentation inspired theme",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "publisher": "victorzevallos",
     "icon": "logo.png",
     "engines": {
