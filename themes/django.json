@@ -5,7 +5,7 @@
 	"colors": {
 		"editor.background": "#ffffff",
 		"editor.foreground": "#000000",
-		"editorLineNumber.foreground": "#408080a1",
+		"editorLineNumber.foreground": "#ccc",
 
 		"statusBar.foreground": "#24292e",
 		"statusBar.background": "#ffffff",
@@ -87,7 +87,9 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"storage"
+				"storage",
+				"keyword.operator.logical",
+				"keyword.operator.expression.in.js"
 			],
 			"settings": {
 				"foreground": "#008000",
@@ -534,6 +536,9 @@
 		},
 
 
+
+
+
 		{
 			"name": "Django templates {%   %}      {{  }}",
 			"scope": [
@@ -566,6 +571,51 @@
 			],
 			"settings": {
 				"foreground": "#0C4B33"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "PHP method and $this",
+			"scope": [
+				"entity.name.function.php",
+				"variable.language.this.php",
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#0C4B33"
+			}
+		},
+		{
+			"name": "blade {{  }}",
+			"scope": [
+				"support.constant.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#BC7A00"
+			}
+		},
+		{
+			"name": "blade directiva @if( )",
+			"scope": [
+				"entity.name.function.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#BC7A00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "blade text",
+			"scope": [
+				"source.php.embedded.line.html variable.other.php",
+				"source.php.embedded.line.html punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#19177C"
 			}
 		}
 	]
