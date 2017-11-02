@@ -251,7 +251,8 @@
 		{
 			"name": "String",
 			"scope": [
-				"string"
+				"string",
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#BA2121"
@@ -349,6 +350,7 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#0C4B33"
 			}
 		},
@@ -359,7 +361,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#BB6688"
+				"foreground": "#BA2121"
 			}
 		},
 		{
