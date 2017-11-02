@@ -27,7 +27,9 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"string.quoted.docstring.multi.python"
+				"string.quoted.docstring.multi.python",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -88,8 +90,7 @@
 			"scope": [
 				"keyword",
 				"storage",
-				"keyword.operator.logical",
-				"keyword.operator.expression.in.js"
+				"keyword.operator.logical"
 			],
 			"settings": {
 				"foreground": "#008000",
@@ -582,7 +583,7 @@
 		{
 			"name": "this",
 			"scope": [
-				"variable.language.this.php"
+				"variable.language.this"
 			],
 			"settings": {
 				"foreground": "#008000"
@@ -624,6 +625,22 @@
 			],
 			"settings": {
 				"foreground": "#19177C"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "Javascript",
+			"scope": [
+				"keyword.operator.expression.in.js",
+				"keyword.operator.expression.typeof.js"
+			],
+			"settings": {
+				"foreground": "#008000",
+				"fontStyle": "bold"
 			}
 		}
 	]
