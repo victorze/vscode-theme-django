@@ -6,6 +6,6 @@
 #### add this your ***User Settings*** (settings.json)
 ```
 {
-    "editor.lineHeight": 24,
+    "editor.lineHeight": 22,
 }
   ```
