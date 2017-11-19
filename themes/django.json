@@ -50,7 +50,6 @@
 			"scope": [
 				"comment.documentation",
 				"comment.block.documentation",
-				"comment.block.documentation keyword",
 				"comment.block.documentation support.class"
 			],
 			"settings": {
@@ -646,6 +645,40 @@
 			"settings": {
 				"foreground": "#008000",
 				"fontStyle": "bold"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "twig keyword control",
+			"scope": [
+				"keyword.control.twig"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#008000"
+			}
+		},
+		{
+			"name": "twig tag {{ }}",
+			"scope": [
+				"punctuation.section.tag.twig"
+			],
+			"settings": {
+				"foreground": "#BC7A00"
+			}
+		},
+		{
+			"name": "twig variable.other.twig",
+			"scope": [
+				"variable.other.twig",
+				"meta.tag.template.value.twig"
+			],
+			"settings": {
+				"foreground": "#19177C"
 			}
 		}
 	]
