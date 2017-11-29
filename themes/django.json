@@ -29,8 +29,8 @@
 				"comment",
 				"punctuation.definition.comment",
 				"string.quoted.docstring.multi.python",
-				"punctuation.definition.string.begin.python",
-				"punctuation.definition.string.end.python"
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
