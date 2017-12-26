@@ -4,7 +4,7 @@
 
 # Extra
 ## PyCharm
-![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/pycharm_.png)
+![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/pycharm.png)
 
 ## Github clasic
-![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/github_clasic.png)
+![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/github_clasic_.png)

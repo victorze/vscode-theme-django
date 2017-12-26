@@ -135,13 +135,23 @@
 			}
 		},
 		{
-			"name": "Class",
+			"name": "Class and method magic",
 			"scope": [
 				"entity.name.type",
 				"support.class"
 			],
 			"settings": {
 				"foreground": "#000"
+			}
+		},
+		{
+			"name": "Function call y magic",
+			"scope": [
+				"support.function",
+				"support.function.magic"
+			],
+			"settings": {
+                "foreground": "#008000"
 			}
 		},
 
@@ -167,7 +177,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#0000AC"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -178,6 +188,16 @@
 			],
 			"settings": {
 				"foreground": "#0000AC"
+			}
+		},
+		{
+			"name": "decorator python",
+			"scope": [
+				"meta.function.decorator",
+				"entity.name.function.decorator"
+			],
+			"settings": {
+				"foreground": "#008000"
 			}
 		},
 		{

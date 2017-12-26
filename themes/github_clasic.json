@@ -86,7 +86,7 @@
                 "storage.type",
                 "keyword.operator.key",
                 "keyword.operator.comparison",
-                "keyword.operator.assignment.php"
+                "keyword.operator.assignment"
 			],
 			"settings": {
 				"foreground": "#A71D5D",
@@ -157,22 +157,12 @@
 			}
 		},
 		{
-			"name": "Function call",
+			"name": "Function call y magic",
 			"scope": [
-                "meta.function-call"
+				"support.function"
 			],
 			"settings": {
                 "foreground": "#62A35C"
-			}
-		},
-		{
-			"name": "Function magic",
-			"scope": [
-                "support.function.magic"
-			],
-			"settings": {
-                "foreground": "#62A35C",
-                "fontStyle": "bold"
 			}
 		},
 
