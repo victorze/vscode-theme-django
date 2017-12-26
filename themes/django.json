@@ -383,7 +383,9 @@
 				"meta.property-value",
 				"meta.property-value constant.other",
 				"support.constant.property-value",
-				"source.css keyword"
+				"source.css keyword",
+				"source.css constant.numeric",
+                "source.css constant.language"
 			],
 			"settings": {
 				"foreground": "#19177C"
