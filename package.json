@@ -2,7 +2,7 @@
     "name": "vscode-theme-django",
     "displayName": "Django Theme",
     "description": "Documentation inspired theme",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "victorzevallos",
     "icon": "logo.png",
     "engines": {
@@ -25,13 +25,13 @@
             }
         ]
     },
-    "homepage": "https://github.com/victorzevallos/vscode-theme-django/blob/master/README.md",
+    "homepage": "https://github.com/victorze/vscode-theme-django/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/victorzevallos/vscode-theme-django"
+        "url": "https://github.com/victorze/vscode-theme-django"
     },
     "bugs": {
-        "url": "https://github.com/victorzevallos/vscode-theme-django/issues"
+        "url": "https://github.com/victorze/vscode-theme-django/issues"
     },
     "__metadata": {
         "id": "02f04205-4626-47a2-ae93-b3a7931cb1c1",
