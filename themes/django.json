@@ -287,8 +287,6 @@
 
 
 
-
-
 		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
@@ -384,7 +382,8 @@
 			"scope": [
 				"meta.property-value",
 				"meta.property-value constant.other",
-				"support.constant.property-value"
+				"support.constant.property-value",
+				"source.css keyword"
 			],
 			"settings": {
 				"foreground": "#19177C"
@@ -395,6 +394,147 @@
 			"scope": "keyword.other.important",
 			"settings": {
 				"fontStyle": "bold"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "Django templates {%   %}      {{  }}",
+			"scope": [
+				"entity.other.django.delimiter.tag",
+				"entity.other.django.delimiter.variable"
+			],
+			"settings": {
+				"foreground": "#BC7A00"
+			}
+		},
+		{
+			"name": "Variable Django templates",
+			"scope": [
+				"variable.other.django.block",
+				"variable.other.django"
+			],
+			"settings": {
+				"foreground": "#19177C"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "Property name json",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#0C4B33"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "this",
+			"scope": [
+				"variable.language.this"
+			],
+			"settings": {
+				"foreground": "#008000"
+			}
+		},
+		{
+			"name": "&",
+			"scope": [
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#0C4B33"
+			}
+		},
+		{
+			"name": "blade {{  }}",
+			"scope": [
+				"support.constant.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#BC7A00"
+			}
+		},
+		{
+			"name": "blade directiva @if( )",
+			"scope": [
+				"entity.name.function.laravel-blade"
+			],
+			"settings": {
+				"foreground": "#BC7A00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "blade text",
+			"scope": [
+				"source.php.embedded.line.html variable.other.php",
+				"source.php.embedded.line.html punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#19177C"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "Javascript",
+			"scope": [
+				"keyword.operator.expression.in.js",
+				"keyword.operator.expression.typeof.js"
+			],
+			"settings": {
+				"foreground": "#008000",
+				"fontStyle": "bold"
+			}
+		},
+
+
+
+
+
+		{
+			"name": "twig keyword control",
+			"scope": [
+				"keyword.control.twig"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#008000"
+			}
+		},
+		{
+			"name": "twig tag {{ }}",
+			"scope": [
+				"punctuation.section.tag.twig"
+			],
+			"settings": {
+				"foreground": "#BC7A00"
+			}
+		},
+		{
+			"name": "twig variable.other.twig",
+			"scope": [
+				"variable.other.twig",
+				"meta.tag.template.value.twig"
+			],
+			"settings": {
+				"foreground": "#19177C"
 			}
 		},
 
@@ -551,147 +691,6 @@
 			"settings": {
 				"background": "#DDFFDD",
 				"foreground": "#434343"
-			}
-		},
-
-
-
-
-
-		{
-			"name": "Django templates {%   %}      {{  }}",
-			"scope": [
-				"entity.other.django.delimiter.tag",
-				"entity.other.django.delimiter.variable"
-			],
-			"settings": {
-				"foreground": "#BC7A00"
-			}
-		},
-		{
-			"name": "Variable Django templates",
-			"scope": [
-				"variable.other.django.block",
-				"variable.other.django"
-			],
-			"settings": {
-				"foreground": "#19177C"
-			}
-		},
-
-
-
-
-
-		{
-			"name": "Property name json",
-			"scope": [
-				"support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#0C4B33"
-			}
-		},
-
-
-
-
-
-		{
-			"name": "this",
-			"scope": [
-				"variable.language.this"
-			],
-			"settings": {
-				"foreground": "#008000"
-			}
-		},
-		{
-			"name": "&",
-			"scope": [
-				"punctuation.definition.variable.php"
-			],
-			"settings": {
-				"foreground": "#0C4B33"
-			}
-		},
-		{
-			"name": "blade {{  }}",
-			"scope": [
-				"support.constant.laravel-blade"
-			],
-			"settings": {
-				"foreground": "#BC7A00"
-			}
-		},
-		{
-			"name": "blade directiva @if( )",
-			"scope": [
-				"entity.name.function.laravel-blade"
-			],
-			"settings": {
-				"foreground": "#BC7A00",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "blade text",
-			"scope": [
-				"source.php.embedded.line.html variable.other.php",
-				"source.php.embedded.line.html punctuation.definition.variable.php"
-			],
-			"settings": {
-				"foreground": "#19177C"
-			}
-		},
-
-
-
-
-
-		{
-			"name": "Javascript",
-			"scope": [
-				"keyword.operator.expression.in.js",
-				"keyword.operator.expression.typeof.js"
-			],
-			"settings": {
-				"foreground": "#008000",
-				"fontStyle": "bold"
-			}
-		},
-
-
-
-
-
-		{
-			"name": "twig keyword control",
-			"scope": [
-				"keyword.control.twig"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#008000"
-			}
-		},
-		{
-			"name": "twig tag {{ }}",
-			"scope": [
-				"punctuation.section.tag.twig"
-			],
-			"settings": {
-				"foreground": "#BC7A00"
-			}
-		},
-		{
-			"name": "twig variable.other.twig",
-			"scope": [
-				"variable.other.twig",
-				"meta.tag.template.value.twig"
-			],
-			"settings": {
-				"foreground": "#19177C"
 			}
 		}
 	]
