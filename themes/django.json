@@ -14,7 +14,9 @@
 		"statusBar.noFolderForeground": "#24292e",
 		"statusBar.noFolderBackground": "#fafbfc",
 		"statusBar.debuggingForeground": "#24292e",
-		"statusBar.debuggingBackground": "#fafbfc"
+		"statusBar.debuggingBackground": "#fafbfc",
+
+		"sideBar.foreground": "#0C4B33"
 	},
 	"tokenColors": [
 		{
@@ -270,6 +272,17 @@
 				"foreground": "#AA22FF"
 			}
 		},
+		{
+			"name": "type exception",
+			"scope": [
+				"support.type.exception.python"
+			],
+			"settings": {
+				"foreground": "#D2413A",
+				"fontStyle": "bold"
+			}
+		},
+
 
 
 
