@@ -2,7 +2,7 @@
     "name": "vscode-theme-django",
     "displayName": "Django Theme",
     "description": "Documentation inspired theme",
-    "version": "2.1.3",
+    "version": "2.4.0",
     "publisher": "victorzevallos",
     "icon": "logo.png",
     "engines": {
@@ -17,6 +17,21 @@
                 "label": "Django Theme",
                 "uiTheme": "vs",
                 "path": "./themes/django.json"
+            },
+            {
+                "label": "Django Extra - JetBrains",
+                "uiTheme": "vs",
+                "path": "./themes/jetbrains.json"
+            },
+            {
+                "label": "Django Extra - Github Clasic",
+                "uiTheme": "vs",
+                "path": "./themes/github_clasic.json"
+            },
+            {
+                "label": "Django Extra - Github",
+                "uiTheme": "vs",
+                "path": "./themes/github.json"
             }
         ]
     },
