@@ -92,7 +92,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword - source.css",
+				"keyword",
 				"storage",
 				"keyword.operator.logical"
 			],
@@ -314,7 +314,7 @@
 		},
 		{
 			"name": "HTML: Tag Names",
-			"scope": "entity.name.tag - source.css",
+			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#008000",
 				"fontStyle": "bold"
@@ -374,7 +374,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#0C4B33"
+				"foreground": "#008000"
 			}
 		},
 		{
@@ -388,7 +388,7 @@
 				"source.css keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#19177C"
+				"foreground": "#0C4B33"
 			}
 		},
 		{
