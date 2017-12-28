@@ -92,7 +92,7 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword",
+				"keyword - source.css",
 				"storage",
 				"keyword.operator.logical"
 			],
@@ -138,7 +138,8 @@
 			"name": "Functions Python",
 			"scope": [
 				"entity.name.function.python",
-				"support.function.magic.python"
+				"support.function.magic.python",
+				"source.css entity.name.function"
 			],
 			"settings": {
 				"foreground": "#0000FF"
@@ -313,7 +314,7 @@
 		},
 		{
 			"name": "HTML: Tag Names",
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag - source.css",
 			"settings": {
 				"foreground": "#008000",
 				"fontStyle": "bold"
@@ -354,7 +355,7 @@
 
 
 		{
-			"name": "CSS: Selectors",
+			"name": "Selectors",
 			"scope": [
 				"meta.selector",
 				"meta.selector entity",
@@ -363,38 +364,41 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#0C4B33"
+				"foreground": "#BA2121"
 			}
 		},
 		{
-			"name": "CSS: Property Names",
+			"name": "Property Names",
 			"scope": [
 				"meta.property-name",
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#BA2121"
+				"foreground": "#0C4B33"
 			}
 		},
 		{
-			"name": "CSS: Property Values",
+			"name": "Property Values",
 			"scope": [
 				"meta.property-value",
 				"meta.property-value constant.other",
 				"support.constant.property-value",
-				"source.css keyword",
 				"source.css constant.numeric",
-                "source.css constant.language"
+				"source.css constant.language",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#19177C"
 			}
 		},
 		{
-			"name": "CSS: Important Keyword",
-			"scope": "keyword.other.important",
+			"name": "keyword control css and scss",
+			"scope": [
+				"source.css keyword.control",
+				"source.css punctuation.definition.keyword"
+			],
 			"settings": {
+				"foreground": "#008000",
 				"fontStyle": "bold"
 			}
 		},
