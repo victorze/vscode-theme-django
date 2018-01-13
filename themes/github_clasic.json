@@ -30,9 +30,6 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"string.quoted.docstring.multi.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
 				"comment.block.preprocessor",
 				"comment.documentation",
 				"comment.block.documentation",
@@ -41,6 +38,15 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#969896"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#183691"
 			}
 		},
 		{
@@ -328,7 +334,7 @@
 				"source.css keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#333"
 			}
 		},
 		{

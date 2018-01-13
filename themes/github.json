@@ -16,7 +16,7 @@
 		"statusBar.debuggingForeground": "#24292e",
 		"statusBar.debuggingBackground": "#fafbfc",
 
-		"sideBar.foreground": "#000"
+		"sideBar.foreground": "#24292e"
 	},
 	"tokenColors": [
 		{
@@ -30,9 +30,6 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
-				"string.quoted.docstring.multi.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
 				"comment.block.preprocessor",
 				"comment.documentation",
 				"comment.block.documentation",

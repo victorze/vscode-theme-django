@@ -29,14 +29,20 @@
 			"name": "Comments",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment",
-				"string.quoted.docstring.multi.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#408080"
+			}
+		},
+		{
+			"name": "docstring python",
+			"scope": [
+				"string.quoted.docstring.multi.python"
+			],
+			"settings": {
+				"foreground": "#BA2121"
 			}
 		},
 		{
@@ -114,10 +120,7 @@
 		{
 			"name": "Language Constants",
 			"scope": [
-				"support.constant",
-				"variable.language",
-				"constant.numeric",
-				"constant"
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#19177C"
@@ -156,6 +159,16 @@
 				"foreground": "#0000FF"
 			}
 		},
+		{
+			"name": "primitive functions",
+			"scope": [
+				"support.function",
+				"support.type"
+			],
+			"settings": {
+                "foreground": "#008000"
+			}
+		},
 
 
 
@@ -178,8 +191,7 @@
 				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#BB6688"
+				"foreground": "#0C4B33"
 			}
 		},
 
@@ -208,13 +220,6 @@
 			}
 		},
 		{
-			"name": "Strings",
-			"scope": "string",
-			"settings": {
-				"foreground": "#448C27"
-			}
-		},
-		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
@@ -235,8 +240,7 @@
 			"name": "Strings: Regular Expressions",
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
-				"foreground": "#BB6688",
-				"fontStyle": "bold"
+				"foreground": "#BA2121"
 			}
 		},
 		{
@@ -266,7 +270,6 @@
 		{
 			"name": "Decorator python",
 			"scope": [
-				"support.type.python",
 				"entity.name.function.decorator.python"
 			],
 			"settings": {
