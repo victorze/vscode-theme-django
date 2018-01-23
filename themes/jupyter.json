@@ -90,7 +90,11 @@
 		},
 		{
 			"name": "Operators",
-			"scope": "keyword.operator.assignment.",
+			"scope": [
+				"keyword.operator.assignment.",
+				"keyword.operator.class.php",
+				"keyword.operator.key.php"
+			],
 			"settings": {
 				"foreground": "#000"
 			}
@@ -160,10 +164,11 @@
 			}
 		},
 		{
-			"name": "primitive functions",
+			"name": "primitive functions and property",
 			"scope": [
 				"support.function",
-				"support.type.python"
+				"support.type.python",
+				"support.variable.property"
 			],
 			"settings": {
                 "foreground": "#008000"
@@ -271,7 +276,7 @@
 		{
 			"name": "Decorator python",
 			"scope": [
-				"entity.name.function.decorator.python",
+				"entity.name.function.decorator",
 				"keyword.operator"
 			],
 			"settings": {

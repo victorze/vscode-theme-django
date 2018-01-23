@@ -162,9 +162,10 @@
 			}
 		},
 		{
-			"name": "Function call y magic",
+			"name": "primitive function and property",
 			"scope": [
-				"support.function"
+				"support.function",
+				"support.variable.property"
 			],
 			"settings": {
                 "foreground": "#62A35C"

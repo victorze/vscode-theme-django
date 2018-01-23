@@ -160,10 +160,11 @@
 			}
 		},
 		{
-			"name": "primitive functions",
+			"name": "primitive functions and property",
 			"scope": [
 				"support.function",
-				"support.type"
+				"support.type",
+				"support.variable.property"
 			],
 			"settings": {
                 "foreground": "#008000"

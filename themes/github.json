@@ -147,10 +147,11 @@
 			}
 		},
 		{
-			"name": "Function call y magic",
+			"name": "primitive function and property",
 			"scope": [
                 "support.function",
-                "entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"support.variable.property"
 			],
 			"settings": {
                 "foreground": "#005cc5"
