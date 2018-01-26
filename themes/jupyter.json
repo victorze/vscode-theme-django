@@ -32,7 +32,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#408080"
 			}
 		},
@@ -58,7 +57,8 @@
 			"scope": [
 				"comment.documentation",
 				"comment.block.documentation",
-				"comment.block.documentation support.class"
+				"comment.block.documentation support.class",
+				"comment.block.documentation keyword.other.type"
 			],
 			"settings": {
 				"foreground": "#408080"
