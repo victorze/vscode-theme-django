@@ -218,6 +218,16 @@
 				"foreground": "#005cc5"
 			}
 		},
+		{
+			"name": "parameter function call",
+			"scope": [
+				"variable.parameter.function-call"
+			],
+			"settings": {
+				"foreground": "#e36209"
+			}
+		},
+
 
 
 

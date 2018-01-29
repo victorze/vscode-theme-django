@@ -187,7 +187,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#008000"
 			}
 		},
 		{
@@ -251,9 +251,12 @@
 		},
 		{
 			"name": "Strings: Symbols",
-			"scope": "constant.other.symbol",
+			"scope": [
+				"constant.other.symbol",
+				"variable.parameter.function-call"
+			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#7D9029"
 			}
 		},
 		{
@@ -497,6 +500,8 @@
 
 
 
+
+		// Django and twig
 		{
 			"name": "Django templates {%   %}      {{  }}",
 			"scope": [
@@ -507,23 +512,24 @@
 			}
 		},
 		{
-			"name": "Django templates {%   %}      {{  }}",
+			"name": "keyword control",
 			"scope": [
 				"keyword.control.twig",
 				"keyword.operator.comparison.twig"
 			],
 			"settings": {
-				"foreground": "#BC7A00"
+				"foreground": "#A45606"
 			}
 		},
 		{
 			"name": "Variable Django templates",
 			"scope": [
 				"variable.other.twig",
+				"variable.other.property.twig",
 				"meta.tag.template.value.twig"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#1A177D"
 			}
 		}
 	]

@@ -1,16 +1,16 @@
 # Django Theme
 ## Documentation inspired theme
-![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/django1.png)
+![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/django.png)
 
 # Extra
 ## Jupyter
-![jupyter](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/jupyter1.png)
+![jupyter](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/jupyter.png)
 
 ## JetBrains
-![jetbrains](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/jetbrains1.png)
+![jetbrains](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/jetbrains.png)
 
 ## Github Clasic
-![github_clasic](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/github_clasic1.png)
+![github_clasic](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/github_clasic.png)
 
 ## Github
-![github](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/github1.png)
+![github](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/github.png)
