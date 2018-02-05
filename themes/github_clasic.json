@@ -30,6 +30,9 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.comment",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
 				"comment.block.preprocessor",
 				"comment.documentation",
 				"comment.block.documentation",
@@ -38,15 +41,6 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#969896"
-			}
-		},
-		{
-			"name": "Comments",
-			"scope": [
-				"string.quoted.docstring.multi.python"
-			],
-			"settings": {
-				"foreground": "#183691"
 			}
 		},
 		{
@@ -92,7 +86,8 @@
                 "storage.type",
                 "keyword.operator.key",
                 "keyword.operator.comparison",
-                "keyword.operator.assignment"
+				"keyword.operator.assignment",
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#A71D5D",
@@ -154,7 +149,8 @@
 		{
 			"name": "Function name definition",
 			"scope": [
-				"meta.function entity.name.function"
+				"meta.function entity.name.function",
+				"meta.definition.method entity.name.function"
 			],
 			"settings": {
                 "foreground": "#795DA3",
@@ -162,10 +158,9 @@
 			}
 		},
 		{
-			"name": "primitive function and property",
+			"name": "Function call y magic",
 			"scope": [
-				"support.function",
-				"support.variable.property"
+				"support.function"
 			],
 			"settings": {
                 "foreground": "#62A35C"
@@ -335,7 +330,7 @@
 				"source.css keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#333"
+				"foreground": "#000"
 			}
 		},
 		{

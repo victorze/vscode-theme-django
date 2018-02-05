@@ -295,6 +295,16 @@
 				"foreground": "#000"
 			}
 		},
+		{
+			"name": "<?php   ?>",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#BC7A00"
+			}
+		},
 
 
 
@@ -439,7 +449,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#000"
+				"foreground": "#008000"
 			}
 		},
 		{
