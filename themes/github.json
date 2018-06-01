@@ -144,7 +144,8 @@
 			"name": "Function name definition",
 			"scope": [
 				"meta.function entity.name.function",
-				"source.css entity.name.function"
+				"source.css entity.name.function",
+				"entity.name.function.js"
 			],
 			"settings": {
                 "foreground": "#6f42c1"

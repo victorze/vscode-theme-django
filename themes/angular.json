@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "JetBrains",
+	"name": "Angular",
 	"type": "light",
 	"colors": {
 		"editor.background": "#ffffff",
@@ -21,8 +21,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#333333ff",
-				"background": "#f5f5f5ff"
+				"foreground": "#333333ff"
 			}
 		},
 		{
@@ -37,7 +36,7 @@
 				"comment.block.documentation keyword.other.type"
 			],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#060"
 			}
 		},
 		{
@@ -46,21 +45,13 @@
 				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#808080"
-			}
-		},
-		{
-			"name": "Invalid - Deprecated",
-			"scope": "invalid.deprecated",
-			"settings": {
-				"background": "#96000014"
+				"foreground": "#060"
 			}
 		},
 		{
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"background": "#96000014",
 				"foreground": "#660000"
 			}
 		},
@@ -79,7 +70,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#333"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -94,8 +85,7 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#000088",
-				"fontStyle": "bold"
+				"foreground": "#00f"
 			}
 		},
 		{
@@ -106,7 +96,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#000088"
+				"foreground": "#00b"
 			}
 		},
 		{
@@ -115,7 +105,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#800"
 			}
 		},
 		{
@@ -123,11 +113,10 @@
 			"scope": [
 				"support.constant",
 				"variable.language",
-				"constant.numeric",
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#a31515"
+				"foreground": "#00b"
 			}
 		},
 		{
@@ -135,13 +124,12 @@
 			"scope": [
 				"support.class",
 				"entity.name.type",
-				"meta.function entity.name.function",
-				"meta.definition.method entity.name.function",
 				"support.constant.math",
-				"entity.other.inherited-class"
+                "entity.other.inherited-class",
+                "constant.numeric"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#08c"
 			}
 		},
 		{
@@ -172,17 +160,16 @@
 				"support.function.magic"
 			],
 			"settings": {
-				"foreground": "#B200B2"
+				"foreground": "#60a"
 			}
 		},
 		{
 			"name": "primitive function and property",
 			"scope": [
-				"support.function",
-				"support.variable.property"
+				"support.function"
 			],
 			"settings": {
-                "foreground": "#000088"
+                "foreground": "#60a"
 			}
 		},
 
@@ -198,7 +185,7 @@
 				"keyword.operator.quantifier.regexp"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#660"
 			}
 		},
 
@@ -208,7 +195,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#94558D"
+				"foreground": "#00f"
 			}
 		},
 		{
@@ -218,7 +205,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#94558D"
+				"foreground": "#00f"
 			}
 		},
 		{
@@ -228,17 +215,17 @@
                 "entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#7D2727"
+				"foreground": "#60a"
 			}
 		},
 		{
-			"name": "decorator python",
+			"name": "parameter.function-call",
 			"scope": [
 				"variable.parameter.function-call",
 				"constant"
 			],
 			"settings": {
-				"foreground": "#660E7A"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -248,7 +235,7 @@
 				"keyword.operator.expression.typeof.js"
 			],
 			"settings": {
-				"foreground": "#000088"
+				"foreground": "#00b"
 			}
 		},
 
@@ -265,7 +252,7 @@
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				"foreground": "#999"
+				"foreground": "#660"
 			}
 		},
 		{
@@ -279,15 +266,14 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#333"
+				"foreground": "#008"
 			}
 		},
 		{
 			"name": "Tag Names: h1, p, div...",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#000080",
-				"fontStyle": "bold"
+				"foreground": "#008"
 			}
 		},
 		{
@@ -297,7 +283,7 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#60a"
 			}
 		},
 		{
@@ -306,7 +292,7 @@
 				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#800"
 			}
 		},
 		{
@@ -325,14 +311,14 @@
 
 		// css
 		{
-			"name": "Selectors tag",
+			"name": "Selectors tag: div, h1, p...",
 			"scope": [
 				"meta.selector.css",
 				"meta.selector entity punctuation",
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#000088"
+				"foreground": "#008"
 			}
 		},
 		{
@@ -342,7 +328,7 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"foreground": "#7D2727"
+				"foreground": "#08c"
 			}
 		},
 		{
@@ -352,7 +338,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -375,7 +361,7 @@
 				"source.css keyword.control"
 			],
 			"settings": {
-				"foreground": "#D2413A"
+				"foreground": "#00f"
 			}
 		},
 
@@ -386,10 +372,12 @@
 		{
 			"name": "Django and twig templates {%   %}      {{  }}",
 			"scope": [
-				"punctuation.section.tag.twig"
+                "punctuation.section.tag.twig",
+                "entity.other.django.delimiter.tag",
+                "entity.other.django.delimiter.variable"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#888"
 			}
 		},
 		{
@@ -408,7 +396,7 @@
 				"keyword.control.twig"
 			],
 			"settings": {
-				"foreground": "#D2413A"
+				"foreground": "#00f"
 			}
 		},
 
@@ -455,7 +443,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#2B91AF"
+				"foreground": "#00a"
 			}
 		},
 		{
@@ -464,7 +452,7 @@
 				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#333"
+				"foreground": "#000"
 			}
 		},
 
@@ -480,7 +468,7 @@
 				"string.quoted.single.xml"
 			],
 			"settings": {
-				"foreground": "#008000"
+				"foreground": "#800"
 			}
 		}
 	]
