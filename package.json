@@ -37,11 +37,6 @@
                 "label": "Django Extra - Jupyter",
                 "uiTheme": "vs",
                 "path": "./themes/jupyter.json"
-            },
-            {
-                "label": "Django Extra - Angular",
-                "uiTheme": "vs",
-                "path": "./themes/angular.json"
             }
         ]
     },
