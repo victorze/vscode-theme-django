@@ -14,29 +14,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Django Theme",
+                "label": "Django",
                 "uiTheme": "vs",
                 "path": "./themes/django.json"
-            },
-            {
-                "label": "Django Extra - JetBrains",
-                "uiTheme": "vs",
-                "path": "./themes/jetbrains.json"
-            },
-            {
-                "label": "Django Extra - Github Clasic",
-                "uiTheme": "vs",
-                "path": "./themes/github_clasic.json"
-            },
-            {
-                "label": "Django Extra - Github",
-                "uiTheme": "vs",
-                "path": "./themes/github.json"
-            },
-            {
-                "label": "Django Extra - Jupyter",
-                "uiTheme": "vs",
-                "path": "./themes/jupyter.json"
             }
         ]
     },
