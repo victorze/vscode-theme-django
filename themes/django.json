@@ -1,362 +1,362 @@
 {
     "$schema": "vscode://schemas/color-theme",
-	"name": "Django",
-	"type": "light",
-	"colors": {
-		"editor.background": "#f8f8f8",
-		"editor.foreground": "#0C4B33",
+    "name": "Django",
+    "type": "light",
+    "colors": {
+        "editor.background": "#f8f8f8",
+        "editor.foreground": "#0C4B33",
         "editorIndentGuide.background": "#e6e6e6",
         "editorLineNumber.foreground": "#aaaaaa",
         "editorLineNumber.activeForeground": "#808080",
 
-		"activityBar.background": "#f8f8f8",
-		"activityBar.foreground": "#0C4B33",
+        "activityBar.background": "#f8f8f8",
+        "activityBar.foreground": "#0C4B33",
         "sideBar.background": "#f8f8f8",
-		"sideBar.border": "#e6e6e6",
+        "sideBar.border": "#e6e6e6",
         "sideBarSectionHeader.background": "#C9F0DD",
 
-		"activityBarBadge.background": "#C9F0DD",
-		"activityBarBadge.foreground": "#0C4b33",
-		"statusBar.background": "#f8f8f8",
-		"statusBar.foreground": "#0C4B33"
-	},
-	"tokenColors": [
-		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#408080"
-			}
-		},
-		{
-			"name": "Variables, puctuation",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder",
-				"punctuation"
-			],
-			"settings": {
-				"foreground": "#0c4b33"
-			}
-		},
-		{
-			"name": "Colors",
-			"scope": [
-				"constant.other.color"
-			],
-			"settings": {
-				"foreground": "#0c4b33"
-			}
-		},
-		{
-			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
-			"settings": {
-				"foreground": "#c7254e"
-			}
-		},
-		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier",
-				"keyword.control",
-				"keyword.other"
-			],
-			"settings": {
+        "activityBarBadge.background": "#C9F0DD",
+        "activityBarBadge.foreground": "#0C4b33",
+        "statusBar.background": "#f8f8f8",
+        "statusBar.foreground": "#0C4B33"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#408080"
+            }
+        },
+        {
+            "name": "Variables, puctuation",
+            "scope": [
+                "variable",
+                "string constant.other.placeholder",
+                "punctuation"
+            ],
+            "settings": {
+                "foreground": "#0c4b33"
+            }
+        },
+        {
+            "name": "Colors",
+            "scope": [
+                "constant.other.color"
+            ],
+            "settings": {
+                "foreground": "#0c4b33"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "#c7254e"
+            }
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier",
+                "keyword.control",
+                "keyword.other"
+            ],
+            "settings": {
                 "fontStyle": "bold",
-				"foreground": "#008000"
-			}
-		},
-		{
-			"name": "Operator, Misc, function call",
-			"scope": [
-				"constant.other.color",
-				"meta.tag",
+                "foreground": "#008000"
+            }
+        },
+        {
+            "name": "Operator, Misc, function call",
+            "scope": [
+                "constant.other.color",
+                "meta.tag",
                 "punctuation",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution",
-				"keyword.other.unit",
-				"meta.function-call entity.name.function",
-				"meta.method-call entity.name.function"
-			],
-			"settings": {
-				"foreground": "#0C4B33"
-			}
-		},
-		{
-			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method",
-				"punctuation.separator.inheritance.php"
-			],
-			"settings": {
-				"foreground": "#0000FF"
-			}
-		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other",
-			],
-			"settings": {
-				"foreground": "#0c4b33"
-			}
-		},
-		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape"
-			],
-			"settings": {
-				"foreground": "#BC7A00"
-			}
-		},
-		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": [
-				"string",
-				"constant.other.symbol",
-				"constant.other.key",
-				"markup.heading",
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"foreground": "#BA2121"
-			}
-		},
-		{
-			"name": "Class",
-			"scope": [
+                "punctuation.definition.tag",
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "punctuation.section.embedded",
+                "keyword.other.template",
+                "keyword.other.substitution",
+                "keyword.other.unit",
+                "meta.function-call entity.name.function",
+                "meta.method-call entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#0C4B33"
+            }
+        },
+        {
+            "name": "Function, Special Method",
+            "scope": [
+                "entity.name.function",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method",
+                "punctuation.separator.inheritance.php"
+            ],
+            "settings": {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "name": "Block Level Variables",
+            "scope": [
+                "meta.block variable.other"
+            ],
+            "settings": {
+                "foreground": "#0c4b33"
+            }
+        },
+        {
+            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.constant",
+                "constant.character",
+                "constant.escape"
+            ],
+            "settings": {
+                "foreground": "#BC7A00"
+            }
+        },
+        {
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "constant.other.key",
+                "markup.heading",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "foreground": "#BA2121"
+            }
+        },
+        {
+            "name": "Class",
+            "scope": [
                 "entity.name.type.class",
-				"support.class",
-				"entity.other.inherited-class"
-			],
-			"settings": {
+                "support.class",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
                 "fontStyle": "bold",
-				"foreground": "#0000FF"
-			}
-		},
+                "foreground": "#0000FF"
+            }
+        },
         {
-			"name": "Support",
-			"scope": [
-				"support.type",
-				"support.orther.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types",
-			],
-			"settings": {
-				"foreground": "#0000FF"
-			}
-		},
-		{
-			"name": "Variable language this, self",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"foreground": "#008000"
-			}
-		},
-		{
-			"name": "Regular Expressions",
-			"scope": [
-				"string.regexp"
-			],
-			"settings": {
+            "name": "Support",
+            "scope": [
+                "support.type",
+                "support.orther.namespace.use.php",
+                "meta.use.php",
+                "support.other.namespace.php",
+                "markup.changed.git_gutter",
+                "support.type.sys-types"
+            ],
+            "settings": {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "name": "Variable language this, self",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#008000"
+            }
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": [
+                "string.regexp"
+            ],
+            "settings": {
                 "fontStyle": "bold",
-				"foreground": "#BB6688"
-			}
-		},
-		{
-			"name": "Escape Characters",
-			"scope": [
-				"constant.character.escape"
-			],
-			"settings": {
-				"foreground": "#008000"
-			}
-		},
+                "foreground": "#BB6688"
+            }
+        },
+        {
+            "name": "Escape Characters",
+            "scope": [
+                "constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#008000"
+            }
+        },
 
         {
-			"name": "Python: True, False and None",
-			"scope": [
-				"constant.language.python"
-			],
-			"settings": {
+            "name": "Python: True, False and None",
+            "scope": [
+                "constant.language.python"
+            ],
+            "settings": {
                 "fontStyle": "bold",
-				"foreground": "#008000"
-			}
+                "foreground": "#008000"
+            }
         },
-		{
-			"name": "Python: Function Builtin",
-			"scope": [
-				"support.function.builtin.python"
-			],
-			"settings": {
-				"foreground": "#AA22FF"
-			}
-		},
-		{
-			"name": "Python: Decorator",
-			"scope": [
-				"punctuation.definition.decorator.python",
+        {
+            "name": "Python: Function Builtin",
+            "scope": [
+                "support.function.builtin.python"
+            ],
+            "settings": {
+                "foreground": "#AA22FF"
+            }
+        },
+        {
+            "name": "Python: Decorator",
+            "scope": [
+                "punctuation.definition.decorator.python",
                 "meta.function.decorator.python support.type"
-			],
-			"settings": {
-				"foreground": "#AA22FF"
-			}
-		},
-		{
-			"name": "Javascript: Class Component JS, React",
-			"scope": [
-				"support.class.component.js"
-			],
-			"settings": {
-				"foreground": "#BC7A00"
-			}
-		},
-
-		{
-			"name": "HTML: Name Tag",
-			"scope": [
-				"entity.name.tag"
-			],
-			"settings": {
-                "fontStyle": "bold",
-				"foreground": "#008000"
-			}
-		},
-		{
-			"name": "HTML: punctuation tag",
-			"scope": [
-				"punctuation.definition.tag",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html"
-			],
-			"settings": {
-				"foreground": "#0C4B33"
-			}
-		},
-		{
-			"name": "HTML: attribute",
-			"scope": [
-				"meta.tag"
-			],
-			"settings": {
-				"foreground": "#7D9029"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#0C4B33"
-			}
-		},
-		{
-			"name": "CSS Classes",
-			"scope": [
-				"entity.other.attribute-name.class"
-			],
-			"settings": {
-				"foreground": "#0000ff"
-			}
-		},
-		{
-			"name": "CSS punctuation definition",
-			"scope": [
-				"source.css keyword.other.unit"
-			],
-			"settings": {
-                "fontStyle": "",
-				"foreground": "#BC7A00"
-			}
-		},
-		{
-			"name": "JSON: Puntuation",
-			"scope": [
-				"punctuation.support.type.property-name.begin.json",
-				"punctuation.support.type.property-name.end.json",
-                "support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#008000"
-			}
-		},
-
-		{
-			"name": "Django",
-			"scope": [
-				"entity.tag.tagbraces.django",
-			],
-			"settings": {
-                "fontStyle": "",
-				"foreground": "#BC7A00"
-			}
-		},
-		{
-			"name": "Django",
-			"scope": [
-                "string.unquoted.tag-string.django"
-			],
-			"settings": {
-                "fontStyle": "",
-				"foreground": "#19177C"
-			}
-		},
-        {
-			"name": "Django",
-			"scope": [
-                "string.quoted.double.html"
-			],
-			"settings": {
-                "fontStyle": ""
-			}
+            ],
+            "settings": {
+                "foreground": "#AA22FF"
+            }
         },
-		{
-			"name": "Blade",
-			"scope": [
-				"keyword.blade",
-				"support.function.construct.begin.blade",
-				"support.function.construct.end.blade"
-			],
-			"settings": {
-				"foreground": "#BC7A00"
-			}
-		}
-	]
+        {
+            "name": "Javascript: Class Component JS, React",
+            "scope": [
+                "support.class.component.js"
+            ],
+            "settings": {
+                "foreground": "#BC7A00"
+            }
+        },
+
+        {
+            "name": "HTML: Name Tag",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#008000"
+            }
+        },
+        {
+            "name": "HTML: punctuation tag",
+            "scope": [
+                "punctuation.definition.tag",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
+            ],
+            "settings": {
+                "foreground": "#0C4B33"
+            }
+        },
+        {
+            "name": "HTML: attribute",
+            "scope": [
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#7D9029"
+            }
+        },
+        {
+            "name": "CSS Class and Support",
+            "scope": [
+                "source.css support.type.property-name",
+                "source.sass support.type.property-name",
+                "source.scss support.type.property-name",
+                "source.less support.type.property-name",
+                "source.stylus support.type.property-name",
+                "source.postcss support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#0C4B33"
+            }
+        },
+        {
+            "name": "CSS Classes",
+            "scope": [
+                "entity.other.attribute-name.class"
+            ],
+            "settings": {
+                "foreground": "#0000ff"
+            }
+        },
+        {
+            "name": "CSS punctuation definition",
+            "scope": [
+                "source.css keyword.other.unit"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#BC7A00"
+            }
+        },
+        {
+            "name": "JSON: Puntuation",
+            "scope": [
+                "punctuation.support.type.property-name.begin.json",
+                "punctuation.support.type.property-name.end.json",
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#008000"
+            }
+        },
+
+        {
+            "name": "Django",
+            "scope": [
+                "entity.tag.tagbraces.django"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#BC7A00"
+            }
+        },
+        {
+            "name": "Django",
+            "scope": [
+                "string.unquoted.tag-string.django"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#19177C"
+            }
+        },
+        {
+            "name": "Django",
+            "scope": [
+                "string.quoted.double.html"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Blade",
+            "scope": [
+                "keyword.blade",
+                "support.function.construct.begin.blade",
+                "support.function.construct.end.blade"
+            ],
+            "settings": {
+                "foreground": "#BC7A00"
+            }
+        }
+    ]
 }
