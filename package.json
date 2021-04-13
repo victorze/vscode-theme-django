@@ -17,6 +17,11 @@
                 "label": "Django",
                 "uiTheme": "vs",
                 "path": "./themes/django.json"
+            },
+            {
+                "label": "Jupyter",
+                "uiTheme": "vs",
+                "path": "./themes/jupyter.json"
             }
         ]
     },

@@ -1,4 +1,7 @@
 # Django Theme
 
-## Documentation inspired theme
-![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/django_.png)
+## Django
+![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/django.png)
+
+## Jupyter
+![django](https://raw.githubusercontent.com/victorze/vscode-theme-django/master/images/jupyter.png)
