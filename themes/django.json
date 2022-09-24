@@ -15,8 +15,10 @@
         "sideBar.background": "#f8f8f8",
         "sideBar.border": "#e6e6e6",
         "sideBarSectionHeader.background": "#C9F0DD",
-        "list.activeSelectionBackground": "#2D7A5C",
-        "list.focusOutline":"#2D7A5C",
+
+        "list.activeSelectionForeground": "#2D7A5C",
+        "list.activeSelectionBackground": "#C9F0DD",
+        "list.focusOutline":"#C9F0DD",
 
         "activityBarBadge.background": "#C9F0DD",
         "activityBarBadge.foreground": "#0C4b33",
